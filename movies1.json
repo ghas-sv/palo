@@ -1,0 +1,485 @@
+[
+    {
+        "ID":1,
+        "title": "Fury",
+        "synopsis": "In the last months of World War II, as the Allies make their final push in the European theatre, a battle-hardened U.S. Army sergeant named 'Wardaddy' commands a Sherman tank called 'Fury' and its five-man crew on a deadly mission behind enemy lines. Outnumbered and outgunned, Wardaddy and his men face overwhelming odds in their heroic attempts to strike at the heart of Nazi Germany.",
+        "star": "Brad Pitt",
+        "genres": [
+            "War",
+            "Drama",
+            "Action"
+        ],
+        "runtime": 135,
+        "year":2014,
+        "poster": "img1/1/poster.jpg",
+        "picture1": "img1/1/pic1.jpg",
+        "picture2": "img1/1/pic2.jpg",
+        "picture3": "img1/1/pic3.jpg",
+        "video": {
+            "name": "Official International Trailer 2",
+            "youtube_id": "09w9MTtZDEM"
+        },
+        "cinema": "Galaxy Rathmines"   
+    },
+    {
+        "ID":2,
+        "title": "Dawn of the Planet of the Apes",
+        "synopsis": "A group of scientists in San Francisco struggle to stay alive in the aftermath of a plague that is wiping out humanity, while Caesar tries to maintain dominance over his community of intelligent apes.",
+        "star": "Andy Serkis",
+        "genres": [
+            "Science Fiction",
+            "Action",
+            "Drama",
+            "Thriller"
+        ],
+        "runtime": 130,
+        "year":2014,
+        "poster": "img1/2/poster.jpg",
+        "picture1": "img1/2/pic1.jpg",
+        "picture2": "img1/2/pic2.jpg",
+        "picture3": "img1/2/pic3.jpg",
+        "video": {
+            "name": "Official Final Trailer",
+            "youtube_id": "DpSaTrW4leg"
+        },
+        "cinema": "Galaxy Coolock"
+    },
+    {
+        "ID":3,
+        "title": "Thor: Love and Thunder",
+        "synopsis": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor Odinson enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher\u2019s vengeance and stop him before it\u2019s too late.",
+        "star": "Chris Hemsworth",
+        "genres": [
+            "Fantasy",
+            "Action",
+            "Comedy"
+        ],
+        "runtime": 119,
+        "year":2022,
+        "poster": "img1/3/poster.jpg",
+        "picture1": "img1/3/pic1.jpg",
+        "picture2": "img1/3/pic2.jpg",
+        "picture3": "img1/3/pic3.jpg",
+        "video": {
+            "name": "Official Trailer",
+            "youtube_id": "Go8nTmfrQd8"
+        },
+        "cinema": "Galaxy Rathmines"
+    },
+    {
+        "ID":4,
+        "title": "The Equalizer",
+        "synopsis": "McCall believes he has put his mysterious past behind him and dedicated himself to beginning a new, quiet life. But when he meets Teri, a young girl under the control of ultra-violent Russian gangsters, he can\u2019t stand idly by \u2013 he has to help her. Armed with hidden skills that allow him to serve vengeance against anyone who would brutalize the helpless, McCall comes out of his self-imposed retirement and finds his desire for justice reawakened. If someone has a problem, if the odds are stacked against them, if they have nowhere else to turn, McCall will help. He is The Equalizer.",
+        "star": "Denzel Washington",
+        "genres": [
+            "Thriller",
+            "Action",
+            "Crime"
+        ],
+        "runtime": 132,
+        "year":2014,
+        "poster": "img1/4/poster.jpg",
+        "picture1": "img1/4/pic1.jpg",
+        "picture2": "img1/4/pic2.jpg",
+        "picture3": "img1/4/pic3.jpg",
+        "video": {
+            "name": "Official Online Trailer",
+            "youtube_id": "BP_FwE0Z7no"
+        },
+        "cinema": "Galaxy Coolock"
+    },
+    {
+        "ID":5,
+        "title": "Shrek",
+        "synopsis": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+        "star": "Mike Myers",
+        "genres": [
+            "Animation",
+            "Comedy",
+            "Fantasy",
+            "Adventure",
+            "Family"
+        ],
+        "runtime": 90,
+        "year":2001,
+        "poster": "img1/5/poster.jpg",
+        "picture1": "img1/5/pic1.jpg",
+        "picture2": "img1/5/pic2.jpg",
+        "picture3": "img1/5/pic3.jpg",  
+        "video": {
+            "name": "Shrek (2001) Trailer #1 | Movieclips Classic Trailers",
+            "youtube_id": "CwXOrWvPBPk"
+        },
+        "cinema": "Galaxy Rathmines"
+    },
+    {
+        "ID":6,
+        "title": "The Shawshank Redemption",
+        "synopsis": "Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
+        "star": "Tim Robbins",
+        "genres": [
+            "Drama",
+            "Crime"
+        ],
+        "runtime": 142,
+        "year":1994,
+        "poster": "img1/6/poster.jpg",
+        "picture1": "img1/6/pic1.jpg",
+        "picture2": "img1/6/pic2.jpg",
+        "picture3": "img1/6/pic3.jpg",        
+        "video": {
+            "name": "Trailer",
+            "youtube_id": "PLl99DlL6b4"
+        },
+        "cinema": "Galaxy Coolock"
+    },
+    {
+        "ID":7,
+        "title": "Deadpool",
+        "synopsis": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+        "star": "Ryan Reynolds",
+        "genres": [
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "runtime": 108,
+        "year":2016,
+        "poster": "img1/7/poster.jpg",
+        "picture1": "img1/7/pic1.jpg",
+        "picture2": "img1/7/pic2.jpg",
+        "picture3": "img1/7/pic3.jpg",
+        "video": {
+            "name": "Official Trailer 2",
+            "youtube_id": "9vN6DHB6bJc"
+        },
+        "cinema": "Galaxy Rathmines"
+    },
+    {
+        "ID":8,
+        "title": "Retribution",
+        "synopsis": "When a mysterious caller puts a bomb under his car seat, Matt Turner begins a high-speed chase across the city to complete a specific series of tasks- all with his kids trapped in the back seat.",
+        "star": "Liam Neeson",
+        "genres": [
+            "Action",
+            "Thriller",
+            "Crime"
+        ],
+        "runtime": 91,
+        "year":2023,
+        "poster": "img1/8/poster.jpg",
+        "picture1": "img1/8/pic1.jpg",
+        "picture2": "img1/8/pic2.jpg",
+        "picture3": "img1/8/pic3.jpg",
+        "video": {
+            "name": "Official UK Trailer",
+            "youtube_id": "Sxyzdo-RBKc"
+        },
+        "cinema": "Galaxy Coolock"
+    },
+    {
+        "ID":9,
+        "title": "Avatar: The Way of Water",
+        "synopsis": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+        "star": "Sam Worthington",
+        "genres": [
+            "Science Fiction",
+            "Adventure",
+            "Action"
+        ],
+        "runtime": 192,
+        "year":2022,
+        "poster": "img1/9/poster.jpg",
+        "picture1": "img1/9/pic1.jpg",
+        "picture2": "img1/9/pic2.jpg",
+        "picture3": "img1/9/pic3.jpg",
+        "video": {
+            "name": "New Trailer",
+            "youtube_id": "o5F8MOz_IDw"
+        },
+        "cinema": "Galaxy Rathmines"
+    },
+    {
+        "ID":10,
+        "title": "Dune",
+        "synopsis": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+        "star": "Timothee Chalamet",
+        "genres": [
+            "Science Fiction",
+            "Adventure"
+        ],
+        "runtime": 155,
+        "year":2021,
+        "poster": "img1/10/poster.jpg",
+        "picture1": "img1/10/pic1.jpg",
+        "picture2": "img1/10/pic2.jpg",
+        "picture3": "img1/10/pic3.jpg",
+        "video": {
+            "name": "Final Trailer",
+            "youtube_id": "w0HgHet0sxg"
+        },
+        "cinema": "Galaxy Coolock"
+    },
+    {
+        "ID":11,
+        "title": "Barbie",
+        "synopsis": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+        "star": "Margot Robbie",
+        "genres": [
+            "Comedy",
+            "Adventure",
+            "Fantasy"
+        ],
+        "runtime": 114,
+        "year":2023,
+        "poster": "img1/11/poster.jpg",
+        "picture1": "img1/11/pic1.jpg",
+        "picture2": "img1/11/pic2.jpg",
+        "picture3": "img1/11/pic3.jpg",
+        "video": {
+            "name": "Just Ken Exclusive",
+            "youtube_id": "Y1IgAEejvqM"
+        },
+        "cinema": "Galaxy Rathmines"
+    },
+    {
+        "ID":12,
+        "title": "Mission: Impossible - Dead Reckoning Part One",
+        "synopsis": "Ethan Hunt and his IMF team embark on their most dangerous mission yet: To track down a terrifying new weapon that threatens all of humanity before it falls into the wrong hands. With control of the future and the world's fate at stake and dark forces from Ethan's past closing in, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan must consider that nothing can matter more than his mission\u2014not even the lives of those he cares about most.",
+        "star": "Tom Cruise",
+        "genres": [
+            "Action",
+            "Thriller"
+        ],
+        "runtime": 164,
+        "year":2023,
+        "poster": "img1/12/poster.jpg",
+        "picture1": "img1/12/pic1.jpg",
+        "picture2": "img1/12/pic2.jpg",
+        "picture3": "img1/12/pic3.jpg",
+        "video": {
+            "name": "Final Trailer",
+            "youtube_id": "HurjfO_TDlQ"
+        },
+        "cinema": "Galaxy Coolock"
+    },
+    {
+        "ID":13,
+        "title": "Gran Turismo",
+        "synopsis": "The ultimate wish-fulfillment tale of a teenage Gran Turismo player whose gaming skills won him a series of Nissan competitions to become an actual professional racecar driver.",
+        "star": "Archie Madekwe",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Drama"
+        ],
+        "runtime": 135,
+        "year":2023,
+        "poster": "img1/13/poster.jpg",
+        "picture1": "img1/13/pic1.jpg",
+        "picture2": "img1/13/pic2.jpg",
+        "picture3": "img1/13/pic3.jpg",
+        "video": {
+            "name": "Official UK Trailer #2",
+            "youtube_id": "ZCYHn8mvyF8"
+        },
+        "cinema": "Galaxy Rathmines"
+    },
+    {
+        "ID":14,
+        "title": "Sound of Freedom",
+        "synopsis": "The story of Tim Ballard, a former US government agent, who quits his job in order to devote his life to rescuing children from global sex traffickers.",
+        "star": "Jim Caviezel",
+        "genres": [
+            "Action",
+            "Drama"
+        ],
+        "runtime": 131,
+        "year":2023,
+        "poster": "img1/14/poster.jpg",
+        "picture1": "img1/14/pic1.jpg",
+        "picture2": "img1/14/pic2.jpg",
+        "picture3": "img1/14/pic3.jpg",
+        "video": {
+            "name": "Sound of Freedom - Official Trailer (2023)",
+            "youtube_id": "Rt0kp4VW1cI"
+        },
+        "cinema": "Galaxy Coolock"
+    },
+    {
+        "ID":15,
+        "title": "Guardians of the Galaxy Vol. 3",
+        "synopsis": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+        "star": "Chris Pratt",
+        "genres": [
+            "Science Fiction",
+            "Adventure",
+            "Action"
+        ],
+        "runtime": 150,
+        "year":2023,
+        "poster": "img1/15/poster.jpg",
+        "picture1": "img1/15/pic1.jpg",
+        "picture2": "img1/15/pic2.jpg",
+        "picture3": "img1/15/pic3.jpg",
+        "video": {
+            "name": "New Trailer [Audio Described]",
+            "youtube_id": "AAE5VZktooM"
+        },
+        "cinema": "Galaxy Rathmines"
+    },
+    {
+        "ID":16,
+        "title": "Elemental",
+        "synopsis": "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.",
+        "star": "Leah Lewis",
+        "genres": [
+            "Animation",
+            "Comedy",
+            "Family",
+            "Fantasy",
+            "Romance",
+            "Adventure"
+        ],
+        "runtime": 102,
+        "year":2023,
+        "poster": "img1/16/poster.jpg",
+        "picture1": "img1/16/pic1.jpg",
+        "picture2": "img1/16/pic2.jpg",
+        "picture3": "img1/16/pic3.jpg",
+        "video": {
+            "name": "Official Trailer",
+            "youtube_id": "hXzcyx9V0xw"
+        },
+        "cinema": "Galaxy Coolock"
+    },
+    {
+        "ID":17,
+        "title": "Killers of the Flower Moon",
+        "synopsis": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one\u2014until the FBI steps in to unravel the mystery.",
+        "star": "Leonardo DiCaprio",
+        "genres": [
+            "Crime",
+            "History",
+            "Drama"
+        ],
+        "runtime": 206,
+        "year":2023,
+        "poster": "img1/17/poster.jpg",
+        "picture1": "img1/17/pic1.jpg",
+        "picture2": "img1/17/pic2.jpg",
+        "picture3": "img1/17/pic3.jpg",
+        "video": {
+            "name": "Final Trailer",
+            "youtube_id": "1oZUCkJEuvo"
+        },
+        "cinema": "Galaxy Rathmines"
+    },
+    {
+        "ID":18,
+        "title": "Indiana Jones and the Dial of Destiny",
+        "synopsis": "Finding himself in a new era, and approaching retirement, Indy wrestles with fitting into a world that seems to have outgrown him. But as the tentacles of an all-too-familiar evil return in the form of an old rival, Indy must don his hat and pick up his whip once more to make sure an ancient and powerful artifact doesn't fall into the wrong hands.",
+        "star": "Harrison Ford",
+        "genres": [
+            "Adventure",
+            "Action"
+        ],
+        "runtime": 155,
+        "year":2023,
+        "poster": "img1/18/poster.jpg",
+        "picture1": "img1/18/pic1.jpg",
+        "picture2": "img1/18/pic2.jpg",
+        "picture3": "img1/18/pic3.jpg",
+        "video": {
+            "name": "Official Trailer 2",
+            "youtube_id": "eQfMbSe7F2g"
+        },
+        "cinema": "Galaxy Coolock"
+    },
+    {
+        "ID":19,
+        "title": "Dune: Part Two",
+        "synopsis": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+        "star": "Timothee Chalamet",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Drama"
+        ],
+        "runtime": 166,
+        "year":2024,
+        "poster": "img1/19/poster.jpg",
+        "picture1": "img1/19/pic1.jpg",
+        "picture2": "img1/19/pic2.jpg",
+        "picture3": "img1/19/pic3.jpg",
+        "video": {
+            "name": "Official Trailer 3",
+            "youtube_id": "U2Qp5pL3ovA"
+        },
+        "cinema": "Galaxy Rathmines"
+    },
+    {
+        "ID":20,
+        "title": "Ghostbusters: Frozen Empire",
+        "synopsis": "When the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second ice age.",
+        "star": "Paul Rudd",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Fantasy"
+        ],
+        "runtime": 125,
+        "year":2024,
+        "poster": "img1/20/poster.jpg",
+        "picture1": "img1/20/pic1.jpg",
+        "picture2": "img1/20/pic2.jpg",
+        "picture3": "img1/20/pic3.jpg",
+        "video": {
+            "name": "Official Trailer (HD)",
+            "youtube_id": "HpOBXh02rVc"
+        }
+    },
+    {
+        "ID":21,
+        "title": "The Fall Guy",
+        "synopsis": "Colt Seavers is a stuntman who left the business a year earlier to focus on both his physical and mental health. He's drafted back into service when the star of a mega-budget studio movie, which is being directed by his ex, goes missing.",
+        "star": "Emily Blunt",
+        "genres": [
+            "Comedy",
+            "Action",
+            "Drama"
+        ],
+        "runtime": 114,
+        "year":2024,
+        "poster": "img1/21/poster.jpg",
+        "picture1": "img1/21/pic1.jpg",
+        "picture2": "img1/21/pic2.jpg",
+        "picture3": "img1/21/pic3.jpg",
+        "video": {
+            "name": "Official Trailer",
+            "youtube_id": "j7jPnwVGdZ8"
+        }
+    },
+    {
+        "ID":22,
+        "title": "Deadpool & Wolverine",
+        "synopsis": "Wolverine is recovering from his injuries when he crosses paths with the loudmouth, Deadpool. They team up to defeat a common enemy.",
+        "star": "Ryan Reynolds",
+        "genres": [
+            "Comedy",
+            "Action",
+            "Science Fiction"
+        ],
+        "runtime": 120,
+        "year":2024,
+        "poster": "img1/22/poster.jpg",
+        "picture1": "img1/22/pic1.jpg",
+        "picture2": "img1/22/pic2.jpg",
+        "picture3": "img1/22/pic3.jpg",
+        "video": {
+            "name": "Trailer 3",
+            "youtube_id": "jQhyl9jQrEo"
+        }
+    }
+]
+

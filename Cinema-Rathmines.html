@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style>
+    .object-fit-cover {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .blog-footer {
+      padding: 2.5rem 0;
+      color: #fbf9f9;
+      text-align: center;
+      background-color: black;
+      border-top: 0.05rem solid #e5e5e5;
+    }
+
+    body {
+      height: 100%;
+      background-color: #060516c1;
+    }
+  </style>
+
+  <title>Galaxy Cinema</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Galaxy Cinema</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="navbar-brand" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Cinemas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding: 0.5rem 1rem;">
+            <a class="dropdown-item" href="#">Galaxy Coolock</a>
+            <a class="dropdown-item" href="#">Galaxy Rathmines</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Movies
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding: 0.5rem 1rem;">
+            <a class="dropdown-item" href="#">Available movies</a>
+            <a class="dropdown-item" href="#">Comming soon</a>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="d-flex justify-content-end">
+        <a href="#" class="btn btn-primary ">Login</a>
+        <a href="#" class="btn btn-danger">Sign In</a>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+  <h3 class="text-light">Available movies in Galaxy Rathmines</h3>
+  </div>
+</div>
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/1/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Fury</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Brad Pitt</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">War, Action, Drama </span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(1)" data-movie-id="1">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/3/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Thor: Love and Thunder</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Chris Hemsworth</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">Comedy, Action, Fantasy </span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(3)" data-movie-id="3">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/5/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Shrek</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Mike Myers</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">Animation, Adventure, Comedy, Fantasy, Family </span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(5)" data-movie-id="5">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/7/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Deadpool</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Ryan Reynolds</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">Adventure, Action, Comedy</span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(7)" data-movie-id="7">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/9/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Avatar: The Way of Water</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Sam Worthington</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">Adventure, Action, Science Fiction </span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(9)" data-movie-id="9">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/11/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Barbie</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Margot Robbie</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">Comedy, Adventure, Fantasy </span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(11)" data-movie-id="11">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/13/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Gran Turismo</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Archie Madekwe</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">Adventure, Action, Drama </span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(13)" data-movie-id="13">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/15/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Guardians of the Galaxy Vol. 3</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Chris Pratt</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">Adventure, Action, Science Fiction </span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(15)" data-movie-id="15">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+   
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/17/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Killers of the Flower Moon</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Leonardo DiCaprio</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">Crime, History, Drama </span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(17)" data-movie-id="17">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+   
+    <div class="row">
+      <div class="col-md-3">
+        <img src="img1/19/poster.jpg" alt="Movie poster" class="img-thumbnail object-fit-cover">
+      </div>
+      <div class="col-md-8">
+        <h3 class="text-light">Dune: Part Two</h3>
+        <p class="text-light">Main protagonist: <br>
+          <span class="badge bg-secondary">Timothee Chalamet</span>
+        </p>
+        <p class="text-light">Genre: <br>
+          <span class="badge bg-secondary">Adventure, Action, Drama </span>
+        </p>
+        <br>
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-primary" onclick="viewMore(19)" data-movie-id="19">View More</button>
+        <a href="#" class="btn btn-primary">Book now</a>
+
+      </div>
+    </div>
+    <br>
+  </div>
+  <footer class="blog-footer">
+    <p>Galaxy Cinema all right reserved.</p>
+    <a href="#">Back to top</a>
+    </p>
+  </footer>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    <div class="row">
+      <div class="col-8"></div>
+      <div class="col-4"></div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <script>
+
+    function viewMore(movieId) {
+      // Redirect to the template page with the selected movie's ID as a query parameter
+      window.location.href = 'movie-detail.html?movie-id=' + movieId;
+    }
+
+  </script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

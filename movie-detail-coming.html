@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .object-fit-cover {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .blog-footer {
+            padding: 2.5rem 0;
+            color: #fbf9f9;
+            text-align: center;
+            background-color: black;
+            border-top: 0.05rem solid #e5e5e5;
+        }
+
+        body {
+            height: 100%;
+            background-color: #060516c1;
+        }
+    </style>
+
+    <title>Galaxy Cinema</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Galaxy Cinema</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="navbar-brand" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cinemas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding: 0.5rem 1rem;">
+                        <a class="dropdown-item" href="#">Galaxy Coolock</a>
+                        <a class="dropdown-item" href="#">Galaxy Rathmines</a>
+                      </div>
+                  </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Movies
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="padding: 0.5rem 1rem;">
+                        <a class="dropdown-item" href="#">Available movies</a>
+                        <a class="dropdown-item" href="#">Comming soon</a>
+                      </div>
+                  </li>
+                  
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline btn-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form>
+              <div class="d-flex justify-content-end">
+                  <a href="#" class="btn btn-primary ">Login</a>
+                  <a href="#" class="btn btn-danger">Sign In</a>
+                </div>
+          </div>
+      </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <a href="#" id="movie-poster-link" data-lightbox="gallery">
+              <img src="#" id="movie-poster" alt="Movie poster" class="img-thumbnail object-fit-cover">
+            </a>
+          </div>
+          <div class="col-md-7">
+            <h3 class="text-light text-end" id="movie-title"></h3>
+            <p class="text-light text-end">
+              <span class="badge bg-secondary" id="movie-genre"></span>
+              <span class="badge bg-secondary" id="movie-year"></span>
+            </p>
+            <p class="text-light text-end" id="movie-synopsis">
+            </p>
+            <p class="text-light text-end">
+              <span class="badge bg-secondary" id="movie-time"></span>
+              <span class="badge bg-secondary" id="movie-actor"></span>
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3 class="text-light">COMING SOON</h3>
+          </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <div class="ratio ratio-16x9 mw-100">
+                <iframe id="movie-video" class="mw-100" width="560" height="315" src="https://www.youtube.com/embed/U2Qp5pL3ovA?si=_Bz9Zy2-MpQIArWz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#" id="movie-gallery-link-1" data-lightbox="gallery">
+              <img src="#" id="movie-gallery-1" alt="Movie poster" class="img-thumbnail object-fit-cover">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#" id="movie-gallery-link-2" data-lightbox="gallery">
+              <img src="#" id="movie-gallery-2" alt="Movie poster" class="img-thumbnail object-fit-cover">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="#" id="movie-gallery-link-3" data-lightbox="gallery">
+              <img src="#" id="movie-gallery-3" alt="Movie poster" class="img-thumbnail object-fit-cover">
+            </a>
+          </div>
+        </div>
+      </div>
+<br>
+<footer class="blog-footer">
+    <p>Galaxy Cinema all right reserved.</p>
+        <a href="#">Back to top</a>
+    </p>
+</footer>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col-8"></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script>
+   var urlParams = new URLSearchParams(window.location.search);
+var movieId = parseInt(urlParams.get('movie-id')); 
+
+
+   
+   fetch('movies1.json')
+      .then(response => response.json())
+      .then(data => {
+        const movie = data.find(m => m.ID === movieId);
+        console.log(movie);
+        if (movie) {
+          document.getElementById('movie-title').textContent = movie.title;
+          document.getElementById('movie-synopsis').textContent = movie.synopsis;
+          document.getElementById('movie-actor').textContent = `Actor: ${movie.star}`;
+          document.getElementById('movie-genre').textContent = `Genre: ${movie.genres.join(', ')}`;
+          document.getElementById('movie-year').textContent = `Year: ${movie.year}`;
+          document.getElementById('movie-time').textContent = `${movie.runtime} minutes`;
+          document.getElementById('movie-poster-link').setAttribute("href", movie.poster);
+          document.getElementById('movie-poster').setAttribute("src", movie.poster);
+          document.getElementById('movie-video').setAttribute("src","https://www.youtube.com/embed/"+movie.video.youtube_id);
+          document.getElementById('movie-gallery-link-1').setAttribute("href", movie.picture1);
+          document.getElementById('movie-gallery-1').setAttribute("src", movie.picture1);
+          document.getElementById('movie-gallery-link-2').setAttribute("href", movie.picture2);
+          document.getElementById('movie-gallery-2').setAttribute("src", movie.picture2);
+          document.getElementById('movie-gallery-link-3').setAttribute("href", movie.picture3);
+          document.getElementById('movie-gallery-3').setAttribute("src", movie.picture3);
+        }
+
+      })
+      .catch(error => {
+        // Handle any errors that occur
+        console.log("moMovie id "+movieId+" wasn't found");
+      }
+      );
+    
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
