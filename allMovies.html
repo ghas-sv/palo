@@ -33,6 +33,27 @@
       height: 100%;
       background-color: #060516c1;
     }
+
+    /* Autocomplete dropdown */
+      .autocomplete-items {
+          position: absolute;
+          border: 1px solid #d4d4d4;
+          border-radius: 4px;
+          max-height: 200px;
+          overflow-y: auto;
+          z-index: 99;
+          background-color: white;
+          top: 54px;
+      }
+
+      .autocomplete-item {
+          padding: 5px 10px;
+          cursor: pointer;
+      }
+
+      .autocomplete-item:hover {
+          background-color: #e9e9e9;
+      }
   </style>
 
   <title>Galaxy Cinema</title>
@@ -74,7 +95,9 @@
 
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search-field">
+        <div id="autocomplete-dropdown" class="autocomplete-items" style="display: none;"></div>
+
         <button class="btn btn-outline btn-secondary my-2 my-sm-0" id="search-btn" type="submit">Search</button>
       </form>
       <div class="d-flex justify-content-end">
@@ -162,7 +185,36 @@
               return movie.title.toLowerCase().includes(searchQuery) || movie.star.toLowerCase().includes(searchQuery) || movie.genres.some(genre => genre.toLowerCase().includes(searchQuery));
           });
 
-          renderMovies(filteredMovies); 
+          renderMovies(filteredMovies);
+      });
+
+      // Event listener for search field input
+      document.querySelector('#search-field').addEventListener('input', function (event) {
+          const searchQuery = event.target.value.toLowerCase();
+          const autocompleteDropdown = document.getElementById('autocomplete-dropdown');
+
+          // Filter movies based on search query
+          const matchedMovies = moviesData.filter(movie => movie.title.toLowerCase().includes(searchQuery));
+
+          // Populate autocomplete dropdown with matched movie titles
+          autocompleteDropdown.innerHTML = '';
+          matchedMovies.forEach(movie => {
+              const autocompleteItem = document.createElement('div');
+              autocompleteItem.classList.add('autocomplete-item');
+              autocompleteItem.textContent = movie.title;
+              autocompleteItem.addEventListener('click', function () {
+                  document.querySelector('#search-field').value = movie.title;
+                  autocompleteDropdown.style.display = 'none';
+              });
+              autocompleteDropdown.appendChild(autocompleteItem);
+          });
+
+          // Show/hide autocomplete dropdown based on search query length
+          if (searchQuery.length > 0) {
+              autocompleteDropdown.style.display = 'block';
+          } else {
+              autocompleteDropdown.style.display = 'none';
+          }
       });
   </script>
 
